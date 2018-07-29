@@ -22,3 +22,14 @@ function PessoaTeste(){
 const p3 = new PessoaTeste()
 console.log(p3.falar1('Nome Teste'))
 
+// Correção desafio
+function PessoaDesafio(nome){
+    this.nome = nome
+
+    this.falar2 = function(){
+        console.log(`Meu nome é ${nome}`)
+    }
+}
+
+const pessoa1 = new PessoaDesafio('Desafio')
+pessoa1.falar2()
