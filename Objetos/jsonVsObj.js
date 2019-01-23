@@ -4,7 +4,6 @@
 const obj = { a: 1, b: 2, c: 3, soma(){ return a + b + c } }
 // convertendo objeto em JSON utiliza o stringify, ele não mostra a função
 console.log(JSON.stringify(obj))
-
 // Criando um JSON e transformando em Objeto utiliza o parse
 console.log(JSON.parse('{ "a": 1, "b": 2, "c": 3}'))
 

@@ -24,7 +24,7 @@ console.log(aprovados)
 console.log(aprovados[8] === undefined)  //true
 console.log(aprovados[8] === null)   //false
 
-// altera o array (ordena)
+// altera o array (ordena os elementos dentro do array)
 aprovados.sort()
 console.log(aprovados)
 
@@ -36,4 +36,12 @@ console.log(aprovados[2])
 aprovados = ['Bia', 'Carlos', 'Ana']
 // a partir do indice, numero de elementos a ser excluido, adicionando elementos
 aprovados.splice(1, 2, 'Adicionando')
+/*
+    splice = serve para adicionar elementos em determinados indices
+    e serve para remover elementos de um array
+    Parametros: 
+    indice no qual vai começar a excluir, quantidade de indices que serão removidos, 'Elemento que quer adicionar'
+    Para adicionar sem excluir coloca o primeiro indice de onde vai começar a adicionar (se tiver algo no indice ele sobrepõe),
+     0 (porque não vai excluir) e os elementos a serem adicionados
+*/
 console.log(aprovados)
